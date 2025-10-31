@@ -1,0 +1,101 @@
+/* Reset default styling
+   These rules remove the browser's built‑in spacing so we can control layout. */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body and text styling
+   Sets the overall font, background color, and text color for the page. */
+body {
+    font-family: 'Amiri', serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Heading styling
+   Makes the page title stand out with a special font and color. */
+.heading {
+    margin: 20px 0;
+    font-family: 'Lobster' , Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #01070e;
+}
+
+/* Container styling
+   This is the white card area that holds the inputs and results. */
+.container {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Main section
+   Adds space inside the main area for comfortable reading. */
+.main {
+    padding: 20px;
+}
+
+/* Form group
+   Adds space between form rows (label + input). */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Input field
+   Styles the text box where you type the amount. */
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Prevent text wrapping in select options
+   Keeps long currency codes on a single line so the dropdown looks tidy. */
+.form-control option {
+    white-space: nowrap;
+}
+
+/* Button styling
+   Gives buttons a consistent size and rounded corners. */
+.btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+/* Primary button
+   Dark color theme for the main action buttons. */
+.btn-primary {
+    background-color: #020a13;
+    border-color: #01050a;
+    color: #ffffff;
+}
+
+/* Reset button
+   Alternative styling example (not used in HTML but shows how we could style Reset differently). */
+.btn-primary.reset {
+    background-color: #6c757d;
+    border-color: #6c757d;
+}
+
+/* Center text
+   Used to center buttons and the result text. */
+.text-center {
+    text-align: center;
+}
+
+/* Converted amount display
+   Adds spacing above the result area. */
+#finalAmount {
+    margin-top: 20px;
+}
+
+.finalValue {
+    color: rgb(97, 14, 138);
+    font-weight: bold;
+}
